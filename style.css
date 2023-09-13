@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    padding: 70px 0;
+    padding-bottom: 150px;
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    font-family: "Caveat Brush", cursive;
+    color: #fad744;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+    text-shadow: 2px 4px 1px #2b3252;
+    margin-right: 170px;
+}
+
+.left{
+    padding: 30px 38px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    width: 620px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+.options{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+} 
+
+.question{
+    color: #fad744; 
+    padding-bottom: 10px;
+}
+
+.question h3{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+.line{
+    border-color: #fad744;
+    margin-top: 20px;
+}
+
+.btnWrapper{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: #fad744;
+   cursor: pointer;
+    font-weight: 500;
+    color: #2b3252;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#result {
+    position: sticky;
+    top: 50px;
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+    padding: 50px 30px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  #result span {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  #result h2 {
+    font-weight: 400;
+  }
